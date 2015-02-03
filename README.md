@@ -1,6 +1,6 @@
 
 ##TaDaa/vim-emmet-autocompleter 
-#Autocompleter with Emmet support for Vim
+#HTML/SVG autocompleter with Emmet support for Vim
 Providing HTML+SVG autocompletions with support for Emmet syntax!
 
 ##Installation
