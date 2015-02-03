@@ -1,2 +1,3 @@
 [submodule "emmet-autocompleter"]
-	path = lib/emmet-completer	url = https://github.com/TaDaa/emmet-autocompleter
+	path = emmet-autocompleter
+	url = https://github.com/TaDaa/emmet-autocompleter
