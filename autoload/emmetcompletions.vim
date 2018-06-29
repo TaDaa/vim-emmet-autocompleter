@@ -15,10 +15,12 @@ emmet.completer.handleType('svg',['svg'])
 EOF
 
 function! emmetcompletions#setCompleter()
-    if g:emmet_completions_use_omnifunc == 1
-        set omnifunc=emmetcompletions#Complete
-    else
-        set completefunc=emmetcompletions#Complete
+    if &ft == "svg" || &ft == "html"
+        if g:emmet_completions_use_omnifunc == 1
+            setlocal omnifunc=emmetcompletions#Complete
+        else
+            set completefunc=emmetcompletions#Complete
+        endif
     endif
 endfunction
 
